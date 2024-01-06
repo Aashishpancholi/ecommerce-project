@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  position: relative;
+  /* z-index: -1; */
+}
+
+.firstNavbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-weight: 600;
+  font-size: medium;
+  text-align: center;
+}
+
+.firstNavbar ul li {
+  border-bottom: 1px solid transparent;
+}
+
+.firstNavbar ul li:hover {
+  border-bottom: 1px solid white;
+  transition: 0.25s ease-in-out;
+}
+
+.intro {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/images/demos/demo-5/slider/slide-1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro h1 {
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-family: cursive; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 10rem;
+}
+
+.intro h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.mainBtn {
+  border-radius: 1.5rem;
+  border: 0.01rem solid;
+  font-size: 1rem;
+  padding: 0.3rem 0.75rem;
+  border-color: white;
+  border-style: 0.01rem;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainBtn:hover {
+  color: orange;
+  background-color: white;
+  transition: 0.25s ease-in-out;
+}
+
+.btnSearch {
+  background-color: transparent;
+  position: absolute;
+  left: 81.5rem;
+  color: white;
+}
+
+.btnSearch:hover {
+  color: #c66;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+input.form-control.me-2.searchForm {
+  border: none;
+  border-radius: 0;
+  padding-right: 2rem;
+  border-bottom: 1px solid #fff;
+  /* border-radius: 0px; */
+  background: none;
+  outline: none;
+  position: relative;
+  text-align: left;
+}
+
+input.form-control.me-2.searchForm::placeholder {
+  color: white;
+  text-align: left;
+}
+
+.wishlist {
+  padding-left: 1rem;
+  font-size: 1.25rem;
+  color: white;
+  position: relative;
+}
+
+.wishlist:hover {
+  color: #c66;
+}
+
+.wishlistNumber {
+  position: absolute;
+  font-size: 0.7rem;
+  border-radius: 50%;
+  background-color: #c66;
+  width: 40%;
+  height: 50%;
+  top: 0rem;
+  left: 2rem;
+}
+
+.addCart {
+  padding-left: 1rem;
+  font-size: 1.25rem;
+  color: white;
+  position: relative;
+}
+
+.addCart:hover {
+  color: #c66;
+}
+
+.addCartNumber {
+  position: absolute;
+  font-size: 0.7rem;
+  border-radius: 50%;
+  background-color: #c66;
+  width: 40%;
+  height: 50%;
+  top: 0rem;
+  left: 2rem;
+}
