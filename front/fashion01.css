@@ -152,3 +152,64 @@ input.form-control.me-2.searchForm::placeholder {
   top: 0rem;
   left: 2rem;
 }
+
+.brandImg {
+  /* border: 0.1rem solid black; */
+}
+
+.brandImg:hover {
+  box-shadow: 1px 1px 1px green;
+  transition: 0.5s ease-in-out;
+}
+
+#hero {
+  height: 630px;
+}
+
+.banner1 {
+  width: 630px;
+  height: 630px;
+  background-image: url("./assets/images/demos/demo-5/banners/banner-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .banner1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.banner2 {
+  height: 630px;
+}
+.subBanner1 {
+  width: 630px;
+  height: 300px;
+  background-image: url("./assets/images/demos/demo-5/banners/banner-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .subBanner1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.subBanner2 {
+  width: 630px;
+  height: 300px;
+  background-image: url("./assets/images/demos/demo-5/banners/banner-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .subBanner2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
