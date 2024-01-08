@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "poppins", sans-serif;
+}
 .main {
   position: relative;
   /* z-index: -1; */
@@ -10,6 +14,7 @@
 
 .firstNavbar {
   position: absolute;
+  /* background-color: #373636; */
   top: 0;
   width: 100%;
   z-index: 1;
@@ -153,20 +158,18 @@ input.form-control.me-2.searchForm::placeholder {
   left: 2rem;
 }
 
-.brandImg {
-  /* border: 0.1rem solid black; */
-}
-
-.brandImg:hover {
-  box-shadow: 1px 1px 1px green;
-  transition: 0.5s ease-in-out;
+.addCartNumber:hover {
 }
 
 #hero {
   height: 630px;
 }
 
+/* .............banner 1.............. */
 .banner1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
   width: 630px;
   height: 630px;
   background-image: url("./assets/images/demos/demo-5/banners/banner-1.jpg");
@@ -175,16 +178,66 @@ input.form-control.me-2.searchForm::placeholder {
   background-size: cover;
 }
 
-/* .banner1 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
+.banner1Details {
+  width: 40rem;
+  height: 37rem;
+  color: white;
+  text-align: left;
+  border: 0.35rem solid rgba(255, 255, 255, 0.559);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.2rem;
+  padding-left: 1rem;
+}
 
+.banner1Details:hover {
+  background-color: #ffffff48;
+  transition: all 0.25s ease-in-out;
+}
+
+.banner1Details h5 {
+  font-size: 1rem;
+}
+
+.banner1Details h5:hover {
+  color: #bf4040;
+  transition: all 0.3s ease;
+}
+
+.banner1Details h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.banner1Details a {
+  text-decoration: none;
+  border-bottom: 0.1rem solid transparent;
+
+  color: white;
+}
+
+.banner1Details a:hover {
+  color: #bf4040;
+  border-bottom: 0.1rem solid #c66;
+
+  transition: all 0.3s ease;
+}
+/* .............banner 1.............. */
+
+/* .............banner 2.............. */
 .banner2 {
   height: 630px;
 }
+
+/* ....subBanner1.... */
+
 .subBanner1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
   width: 630px;
   height: 300px;
   background-image: url("./assets/images/demos/demo-5/banners/banner-2.jpg");
@@ -193,13 +246,62 @@ input.form-control.me-2.searchForm::placeholder {
   background-size: cover;
 }
 
-/* .subBanner1 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
+.subBanner1Details {
+  width: 40rem;
+  height: 17rem;
+  color: white;
+  text-align: left;
+  border: 0.35rem solid rgba(255, 255, 255, 0.559);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.2rem;
+  padding-left: 1rem;
+}
+
+.subBanner1Details:hover {
+  background-color: #ffffff48;
+  transition: all 0.25s ease-in-out;
+}
+
+.subBanner1Details h5 {
+  color: #999;
+  font-size: 1rem;
+}
+
+.subBanner1Details h5:hover {
+  color: #bf4040;
+  transition: all 0.3s ease;
+}
+
+.subBanner1Details h3 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.subBanner1Details a {
+  text-decoration: none;
+  border-bottom: 0.1rem solid transparent;
+
+  color: #999;
+}
+
+.subBanner1Details a:hover {
+  color: #bf4040;
+  border-bottom: 0.1rem solid #c66;
+
+  transition: all 0.3s ease;
+}
+
+/* ....subBanner2.... */
 
 .subBanner2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
   width: 630px;
   height: 300px;
   background-image: url("./assets/images/demos/demo-5/banners/banner-3.jpg");
@@ -208,8 +310,53 @@ input.form-control.me-2.searchForm::placeholder {
   background-size: cover;
 }
 
-/* .subBanner2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
+.subBanner2Details {
+  width: 40rem;
+  height: 17rem;
+  color: white;
+  text-align: left;
+  border: 0.35rem solid rgba(255, 255, 255, 0.559);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.2rem;
+  padding-left: 1rem;
+}
+
+.subBanner2Details:hover {
+  background-color: #ffffff48;
+  transition: all 0.25s ease-in-out;
+}
+
+.subBanner2Details h5 {
+  color: #999;
+  font-size: 1rem;
+}
+
+.subBanner2Details h5:hover {
+  color: #bf4040;
+  transition: all 0.3s ease;
+}
+
+.subBanner2Details h3 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.subBanner2Details a {
+  text-decoration: none;
+  border-bottom: 0.1rem solid transparent;
+
+  color: #999;
+}
+
+.subBanner2Details a:hover {
+  color: #bf4040;
+  border-bottom: 0.1rem solid #c66;
+
+  transition: all 0.3s ease;
+}
+/* .............banner 2.............. */
