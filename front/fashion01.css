@@ -422,22 +422,19 @@ input.form-control.me-2.searchForm::placeholder {
   color: #eea287;
 }
 
-.title {
-  text-align: center;
-  margin-top: 3rem;
-}
-
 .owl-stage-outer .row {
   text-align: center;
 }
 
 .owl-stage {
-  background-image: url("./assets/images/demos/demo-5/instagram/1.jpg");
+  /* background-image: url("./assets/images/demos/demo-5/instagram/1.jpg"); */
   height: 200px;
   /* width: 200px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 1px solid #e7e5e5da;
+  box-shadow: 1px 1px 1px 1px #e7e5e5da;
 }
 
 .insta-1 {
@@ -495,6 +492,30 @@ input.form-control.me-2.searchForm::placeholder {
   position: relative;
   /* z-index: 1; */
   /* position: absolute; */
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.title i {
+  font-size: x-large;
+}
+
+.title h5,
+h6 {
+  color: #999;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.title h5 {
+  font-size: 1rem;
+  color: #cc6666;
 }
 /* insta follow */
 
