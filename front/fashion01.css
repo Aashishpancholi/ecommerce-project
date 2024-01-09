@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
 body {
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .main {
   position: relative;
@@ -382,4 +387,203 @@ input.form-control.me-2.searchForm::placeholder {
   font-size: 4rem;
 }
 
-.vido/* ......................video banner................... */;
+/* ......................video banner................... */
+
+/* insta follow */
+
+.owl-stage {
+  text-align: center;
+}
+
+.owl-stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-stage a {
+  color: white;
+  margin: 10px;
+}
+
+.owl-stage a span {
+  padding: 0 8px;
+}
+
+.owl-stage a {
+  display: none;
+}
+
+.owl-stage:hover a {
+  display: block;
+}
+
+.owl-stage a:hover {
+  color: #eea287;
+}
+
+.title {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.owl-stage-outer .row {
+  text-align: center;
+}
+
+.owl-stage {
+  background-image: url("./assets/images/demos/demo-5/instagram/1.jpg");
+  height: 200px;
+  /* width: 200px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.insta-1 {
+  background-image: url("./assets/images/demos/demo-5/instagram/1.jpg");
+}
+
+.insta-2 {
+  background-image: url("./assets/images/demos/demo-5/instagram/2.jpg");
+}
+
+.insta-3 {
+  background-image: url("./assets/images/demos/demo-5/instagram/3.jpg");
+}
+
+.insta-4 {
+  background-image: url("./assets/images/demos/demo-5/instagram/4.jpg");
+}
+
+.insta-5 {
+  background-image: url("./assets/images/demos/demo-5/instagram/5.jpg");
+}
+
+.insta-6 {
+  background-image: url("./assets/images/demos/demo-5/instagram/6.jpg");
+}
+
+.insta-7 {
+  background-image: url("./assets/images/demos/demo-5/instagram/7.jpg");
+}
+
+.insta-8 {
+  background-image: url("./assets/images/demos/demo-5/instagram/8.jpg");
+}
+
+.insta-9 {
+  background-image: url("./assets/images/demos/demo-5/instagram/9.jpg");
+}
+
+.insta {
+  position: relative;
+}
+.insta:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+}
+.insta:hover:before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.insta a {
+  position: relative;
+  /* z-index: 1; */
+  /* position: absolute; */
+}
+/* insta follow */
+
+/* ........................footer....................... */
+.footer {
+  background-color: #fff;
+}
+
+.widget-about p {
+  color: #777;
+  padding: 20px 0 25px 0;
+}
+.widget-two p {
+  padding: 20px;
+}
+.widget-two h5 {
+  padding-left: 18px;
+}
+.width-about-info p {
+  color: #777 !important;
+}
+
+.width-about-info a {
+  color: #a6c76c;
+  font-size: 22px;
+}
+
+.widget {
+  color: #777;
+}
+
+.widget p {
+  color: #777;
+  font-weight: 300;
+}
+
+.widget h5 {
+  font-size: 18px;
+  color: #333;
+}
+
+.width-about-info p {
+  border-bottom: 0;
+  line-height: 0;
+}
+.footer-line hr {
+  color: #777;
+  width: 97%;
+  margin: 0 !important;
+}
+.footer-copyright {
+  color: #777;
+  font-weight: 300;
+}
+.footer-copyright a {
+  color: #777;
+  font-weight: 300;
+}
+.social-label span {
+  color: #777;
+  font-weight: 300;
+  padding-right: 15px;
+}
+
+.fa-facebook-f:hover {
+  color: #8f79ed;
+}
+
+.fa-twitter:hover {
+  content: "\f099";
+  color: #79c8ed;
+}
+.fa-instagram:hover {
+  content: "\f16d";
+  color: #dd6d9a;
+}
+.fa-youtube:hover {
+  content: "\f167";
+  color: #e66262;
+}
+.fa-pinterest:hover {
+  content: "\f0d2";
+  color: #e66262;
+}
+.footer-copyright a span:hover {
+  color: #eea287;
+}
+
+.social-label a span i {
+  color: #eea287;
+}
+/* ........................footer....................... */
