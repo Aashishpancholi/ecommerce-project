@@ -389,7 +389,7 @@ input.form-control.me-2.searchForm::placeholder {
 
 /* ......................video banner................... */
 
-/* insta follow */
+/* ......................insta follow................... */
 
 .owl-stage {
   text-align: center;
@@ -517,7 +517,47 @@ h6 {
   font-size: 1rem;
   color: #cc6666;
 }
-/* insta follow */
+/* .....................insta follow.................... */
+/* ....................Process Section................. */
+.icon-box {
+  border: 1px solid #00000026;
+  text-align: center;
+  padding: 20px 30px 10px 40px;
+  border-radius: 5px;
+  height: 100%;
+  width: max-content;
+}
+/* fa-rocket */
+.icon-box:hover .fa-solid {
+  color: white;
+}
+
+.icon-box:hover .fa-regular {
+  color: white;
+}
+
+.fa-life-ring {
+  font-size: 23px;
+}
+.icon-box {
+  /* width: 385px; */
+}
+
+.icon-box span i {
+  color: #a6c76c;
+  padding-bottom: 1rem;
+}
+
+.icon-box h5 {
+  font-size: 17px;
+}
+
+.icon-box:hover {
+  background-color: #a6c76c;
+  color: white;
+  transition: all 0.5s ease;
+}
+/* ....................Process Section................. */
 
 /* ........................footer....................... */
 .footer {
@@ -601,10 +641,10 @@ h6 {
   color: #e66262;
 }
 .footer-copyright a span:hover {
-  color: #eea287;
+  color: #a6c76c;
 }
 
 .social-label a span i {
-  color: #eea287;
+  color: #a6c76c;
 }
 /* ........................footer....................... */
